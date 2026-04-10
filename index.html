@@ -1,43 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <a>
-                <img src="assets/logo-header.png" alt="logo-header">
-            </a>
-            <nav>
-                <a href="">Accueil</a><a href="">Line Up</a><a href="">Ticket</a><a href="">Calendrier</a>
-                <a href="" >A propos</a>
-            </nav>
+
+  <header>
+    <div class="nav">
+      <img src="assets/logo-header.png" alt="Rapture logo">
+      <nav>
+        <a>ACCUEIL</a>
+        <a>LINE UP</a>
+        <a>TICKET</a>
+        <a>CALENDRIER</a>
+        <a>À PROPOS</a>
+      </nav>
+    </div>
+
+    <section class="hero">
+      <div class="hero-title">
+        <h2>URBAN NIGHT</h2>
+        <h1>Rap Fest</h1>
+        <p>
+          <strong>04 MAI &amp; 05 MAI</strong><br>
+          LYON - PARC DE GERLAND<br>
+          7EME
+        </p>
+        <div>
+          <a class="btn btn-dark">BILLETTERIE</a>
+          <a class="btn btn-light">PLUS D'INFO</a>
         </div>
-        <section class="hero">
-            <div class="titre" >
-                <h1>
-                    Urban Night <span>Rap Fest</span> 
-                </h1>
-                <p>
-                    <strong>4 mai & 05 mai</strong></p> <p>Parc de Gerland</p> <p>7éme</p>
-                
-                <div>
-                    <a class="noir" href="">Billeterie</a> <a class="blanc"  href="">Plus D'info</a>
+      </div>
 
-                </div>
-            </div>
-        </section>
+    </section>
+  </header>
 
-    </header>
+  <main>
+
+    <section class="apropos">
+      <h3>Plongez au cœur du rythme urbain avec RAPture, le festival de rap qui célèbre la puissance des mots, des beats
+        et des cultures qui les inspirent.</h3>
+      <p>Du 4 au 5 mai, vibrez au son des artistes les plus bouillants de la scène rap, entre performances live,
+        freestyles enflammés et rencontres inédites.</p>
+      <p>RAPture, c'est plus qu'un festival, c'est une immersion dans l'essence du hip-hop : des flows tranchants, des
+        basses profondes et une énergie brute qui réunit toutes les générations.</p>
+      <p>Sur scène, les talents montants côtoient les légendes, pour un week-end où chaque rime fait écho aux histoires
+        de la rue, des rêves et de la liberté d'expression.</p>
+      <p>Venez vivre trois jours de pure intensité, là où la musique, la vibe et la culture rap ne font plus qu'un.</p>
+    </section>
+
+    <section class="concert">
+      <img src="assets/section-img.png" alt="Concert RAPture">
+    </section>
+
+    <section class="lineup">
+      <h2>LINE UP</h2>
+      <ul>
+        <li><span>04 MAI</span> – OMAH LAY</li>
+        <li><span>04 MAI</span> – WIZKID</li>
+        <li><span>04 MAI</span> – LIL BABY</li>
+        <li><span>04 MAI</span> – BURNA BOY</li>
+        <li><span>05 MAI</span> – KPOINT</li>
+        <li><span>05 MAI</span> – A.C</li>
+        <li><span>05 MAI</span> – KEKRA</li>
+        <li><span>05 MAI</span> – THEODORA</li>
+      </ul>
+      <a class="btn btn-light">BILLETTERIE</a>
+    </section>
+
+    <section class="sponsors">
+      <img src="assets/spotify.png" alt="Spotify">
+      <img src="assets/applemusic.png" alt="Apple Music">
+      <img src="assets/uber.png" alt="Uber">
+      <img src="assets/deezer.png" alt="Deezer">
+      <img src="assets/motorola.png" alt="Motorola">
+    </section>
+
+    <section class="contact">
+      <h2>CONTACTEZ NOUS</h2>
+      <p>Fill out the booking form below to ask any questions, or reach out to us directly at <a
+          href="mailto:help@raptureclouds.com">help@raptureclouds.com</a> with any questions or concerns.</p>
+      <form>
+        <label>Full Name<input type="text" placeholder="Full Name"></label>
+        <label>Email<input type="email" placeholder="Email"></label>
+        <label>Phone<input type="tel" placeholder="Phone"></label>
+        <label>Message<textarea placeholder="Message"></textarea></label>
+        <button class="btn btn-light">CONTACT</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-email">
+        <p class="footer-label">Email</p>
+        <a href="mailto:help@raptureclouds.com">help@raptureclouds.com</a>
+      </div>
+      <div class="footer-newsletter">
+        <p class="footer-label">NewsLetter</p>
+        <form class="footer-form">
+          <input type="email" placeholder="Ton Email">
+          <button type="submit" class="btn-subscribe">SUBSCRIBE</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2025 • Rapture – Music Festival</p>
+      <div class="footer-links">
+        <a>Terms &amp; Conditions for Event</a>
+        <span>•</span>
+        <a>Privacy Policy</a>
+        <span>•</span>
+        <a>Terms of Use</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
